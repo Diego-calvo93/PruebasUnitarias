@@ -91,7 +91,7 @@ public class CalculadoraTest {
     /**
      * Test of dividir method, of class Calculadora.
      */
-   /* @Test
+    @Test
     public void testDividir() {
         System.out.println("dividir");
         int a = 6;
