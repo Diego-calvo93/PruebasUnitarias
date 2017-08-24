@@ -40,7 +40,7 @@ public class CalculadoraTest {
     /**
      * Test of sumar method, of class Calculadora.
      */
-  /* @Test
+   @Test
     public void testSumar() {
         System.out.println("sumar");
         int a = 6;
@@ -57,7 +57,7 @@ public class CalculadoraTest {
     /**
      * Test of restar method, of class Calculadora.
      */
-  /* @Test
+   @Test
     public void testRestar() {
         System.out.println("restar");
         int a = 8;
@@ -74,7 +74,7 @@ public class CalculadoraTest {
     /**
      * Test of multiplicar method, of class Calculadora.
      */
-  /*  @Test
+    @Test
     public void testMultiplicar() {
         System.out.println("multiplicar");
         int a = 2;
