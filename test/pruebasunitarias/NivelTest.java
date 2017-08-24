@@ -82,20 +82,20 @@ public class NivelTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-//
-//    /**
-//     * Test of getDescripcion method, of class Nivel.
-//     */
-//    @Test
-//    public void testGetDescripcion() {
-//        System.out.println("getDescripcion");
-//        Nivel instance = new Nivel();
-//        String expResult = "";
-//        String result = instance.getDescripcion();
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
+
+    /**
+     * Test of getDescripcion method, of class Nivel.
+     */
+    @Test
+    public void testGetDescripcion() {
+        System.out.println("getDescripcion");
+        Nivel instance = new Nivel();
+        String expResult = "";
+        String result = instance.getDescripcion();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
 //
 //    /**
 //     * Test of setDescripcion method, of class Nivel.
