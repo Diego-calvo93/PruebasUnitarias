@@ -70,18 +70,18 @@ public class NivelTest {
         fail("The test case is a prototype.");
     }
 
-//    /**
-//     * Test of setNumeroNivel method, of class Nivel.
-//     */
-//    @Test
-//    public void testSetNumeroNivel() {
-//        System.out.println("setNumeroNivel");
-//        int numeroNivel = 0;
-//        Nivel instance = new Nivel();
-//        instance.setNumeroNivel(numeroNivel);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
+    /**
+     * Test of setNumeroNivel method, of class Nivel.
+     */
+    @Test
+    public void testSetNumeroNivel() {
+        System.out.println("setNumeroNivel");
+        int numeroNivel = 0;
+        Nivel instance = new Nivel();
+        instance.setNumeroNivel(numeroNivel);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
 //
 //    /**
 //     * Test of getDescripcion method, of class Nivel.
