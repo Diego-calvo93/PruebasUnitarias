@@ -110,20 +110,20 @@ public class NivelTest {
         fail("The test case is a prototype.");
     }
 
-//    /**
-//     * Test of getRangoDesde method, of class Nivel.
-//     */
-//    @Test
-//    public void testGetRangoDesde() {
-//        System.out.println("getRangoDesde");
-//        Nivel instance = new Nivel();
-//        int expResult = 0;
-//        int result = instance.getRangoDesde();
-//        assertEquals(expResult, result);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
+    /**
+     * Test of getRangoDesde method, of class Nivel.
+     */
+    @Test
+    public void testGetRangoDesde() {
+        System.out.println("getRangoDesde");
+        Nivel instance = new Nivel();
+        int expResult = 0;
+        int result = instance.getRangoDesde();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
 //    /**
 //     * Test of setRangoDesde method, of class Nivel.
 //     */
