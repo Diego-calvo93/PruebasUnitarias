@@ -31,7 +31,7 @@ public static boolean altaProfesor(String us, String con, String nomb, int cuil)
      iscreated = false;
      return iscreated;
      }
-     if (con.length()<10){  // valida que la contraseña se mayor o igual a 8 caracteres.
+     if (con.length()>= 6){  // valida que la contraseña se mayor o igual a 8 caracteres.
      iscreated = false;
      return iscreated;
      }

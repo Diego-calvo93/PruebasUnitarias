@@ -3,8 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/src/pruebasunitarias/PruebasUnitarias.java</file>
-            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/src/ConexionBD/ConectarBD.java</file>
+            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/src/pruebasunitarias/Profesor.java</file>
+            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/src/pruebasunitarias/Nivel.java</file>
+            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/src/pruebasunitarias/Ejercicio.java</file>
+            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/test/pruebasunitarias/NivelTest.java</file>
+            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/src/pruebasunitarias/Alumno.java</file>
+            <file>file:/C:/Users/diego/Documents/NetBeansProjects/PruebasUnitarias/test/pruebasunitarias/AlumnoTest.java</file>
         </group>
     </open-files>
 </project-private>

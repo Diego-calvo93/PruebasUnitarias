@@ -7,12 +7,12 @@ public class Ejercicio {
 public int codEj;
 public String expresion;
 public int resultado;
-public Nivel nivelEj;
+public String nivelEj;
 public int puntaje;
 
 
 
-    public Ejercicio(int codEj, String expresion, int resultado, Nivel nivelEj, int calificacion) {
+    public Ejercicio(int codEj, String expresion, int resultado, String nivelEj, int calificacion) {
         this.codEj = codEj;
         this.expresion = expresion;
         this.resultado = resultado;
@@ -21,11 +21,16 @@ public int puntaje;
     }
 
     public Ejercicio() {
-        Nivel nivel = new Nivel();
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public boolean crearEjercicio(int codigo, String expresion,int resultado, String nivel,  int puntaje){
+        boolean res = false;
+        if(resultado > 0){
+            res = true;
+        }
         
-        this.nivelEj= nivel;
-        
-        
+        return res;
     }
 
 

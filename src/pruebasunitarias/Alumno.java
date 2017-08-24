@@ -36,9 +36,10 @@ public static boolean altaAlumno(String us, String con, int leg, String nomb, in
      iscreated = false;
      return iscreated;
      }
-   
+     
+     if(iscreated == true){
      Alumno alumno = new Alumno(us,con, nomb, cuilp);   
-
+     }
      return iscreated;
 }
 

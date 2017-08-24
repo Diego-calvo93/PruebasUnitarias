@@ -7,12 +7,12 @@ public class Nivel {
     public int rangoDesde;
     public int rangoHasta;
 
-    public Nivel(int numeroNivel, String descripcion, int rangoDesde, int rangoHasta) {
+    public Nivel(int numeroNivel, int rangoDesde, int rangoHasta) {
         
         
         this.numeroNivel = numeroNivel;
         
-        this.descripcion = descripcion;
+        
         
         this.rangoDesde = rangoDesde;
         
@@ -62,44 +62,44 @@ public class Nivel {
     
 //Metodo creaNivel. Devuelve true si el objeto es creado, y false si no se creó.
     
-public static boolean crearNivel(String desc, int rDesde, int rHasta) {
- boolean iscreated = true;
+public  boolean crearNivel( int rDesde, int rHasta) {
+ boolean iscreated = false;
     
-    if(rDesde>0 || rHasta>0 && rDesde<rHasta){ 
-        iscreated=false;
-        return iscreated;}
-    
-    
-    
-    if(rDesde>=1 && rHasta<=100){
-    Nivel nivel = new Nivel(1, desc, rDesde, rHasta);}
+    if(rDesde>0 && rHasta>0){
+        if(rDesde<rHasta){
+        iscreated=true;
+        return iscreated;
+        }
+    }
+   if(rDesde>=1 && rHasta<=100){
+    Nivel nivel = new Nivel(1 , rDesde, rHasta);}
     
     else if(rDesde>=101 && rHasta<=200){
-    Nivel nivel = new Nivel(2, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(2, rDesde, rHasta);}
     
     else if(rDesde>=201 && rHasta<=300){
-    Nivel nivel = new Nivel(3, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(3 , rDesde, rHasta);}
     
     else if(rDesde>=301 && rHasta<=400){
-    Nivel nivel = new Nivel(4, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(4 , rDesde, rHasta);}
     
     else if(rDesde>=401 && rHasta<=500){
-    Nivel nivel = new Nivel(5, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(5, rDesde, rHasta);}
     
     else if(rDesde>=501 && rHasta<=600){
-    Nivel nivel = new Nivel(6, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(6,  rDesde, rHasta);}
     
     else if(rDesde>=601 && rHasta<=700){
-    Nivel nivel = new Nivel(7, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(7,  rDesde, rHasta);}
     
     else if(rDesde>=701 && rHasta<=800){
-    Nivel nivel = new Nivel(8, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(8,  rDesde, rHasta);}
     
     else if(rDesde>=801 && rHasta<=900){
-    Nivel nivel = new Nivel(9, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(9,  rDesde, rHasta);}
     
     else if(rDesde>=901 && rHasta<=1000){
-    Nivel nivel = new Nivel(10, desc, rDesde, rHasta);}
+    Nivel nivel = new Nivel(10,  rDesde, rHasta);}
     
     
     return iscreated;
