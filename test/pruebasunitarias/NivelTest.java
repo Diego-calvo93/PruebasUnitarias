@@ -96,20 +96,20 @@ public class NivelTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-//
-//    /**
-//     * Test of setDescripcion method, of class Nivel.
-//     */
-//    @Test
-//    public void testSetDescripcion() {
-//        System.out.println("setDescripcion");
-//        String descripcion = "";
-//        Nivel instance = new Nivel();
-//        instance.setDescripcion(descripcion);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
-//    }
-//
+
+    /**
+     * Test of setDescripcion method, of class Nivel.
+     */
+    @Test
+    public void testSetDescripcion() {
+        System.out.println("setDescripcion");
+        String descripcion = "";
+        Nivel instance = new Nivel();
+        instance.setDescripcion(descripcion);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
 //    /**
 //     * Test of getRangoDesde method, of class Nivel.
 //     */
